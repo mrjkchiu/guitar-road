@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 主题色：契约第三节色值，写死 -->
+<resources>
+    <color name="wood">#8B6F47</color>
+    <color name="wood_dark">#6B5435</color>
+    <color name="leaf_green">#4CAF7D</color>
+    <color name="leaf_green_light">#E8F5EE</color>
+    <color name="brick_red">#D96C5B</color>
+    <color name="brick_red_light">#FCEEEB</color>
+    <color name="amber">#E5A93C</color>
+    <color name="cream_bg">#FAF7F2</color>
+    <color name="card_white">#FFFFFF</color>
+    <color name="card_variant">#F1EBE2</color>
+    <color name="ink_primary">#2E2A26</color>
+    <color name="ink_secondary">#7A726A</color>
+    <color name="line_divider">#E3DCD2</color>
+    <color name="disabled_gray">#C9C2B8</color>
+    <!-- 深色模式 -->
+    <color name="dark_background">#1E1B18</color>
+    <color name="dark_surface">#2B2723</color>
+    <color name="dark_primary">#C9A87C</color>
+</resources>
