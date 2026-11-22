@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Material 3 亮色主题（深色见 values-night/themes.xml） -->
+<resources>
+    <style name="Theme.GuitarRoad" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/wood</item>
+        <item name="colorPrimaryVariant">@color/wood_dark</item>
+        <item name="colorOnPrimary">@color/card_white</item>
+        <item name="colorSecondary">@color/leaf_green</item>
+        <item name="colorOnSecondary">@color/card_white</item>
+        <item name="colorError">@color/brick_red</item>
+        <item name="android:colorBackground">@color/cream_bg</item>
+        <item name="colorSurface">@color/card_white</item>
+        <item name="colorOnSurface">@color/ink_primary</item>
+        <item name="android:statusBarColor">@color/cream_bg</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>
