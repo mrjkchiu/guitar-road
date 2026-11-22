@@ -1,0 +1,707 @@
+[
+  {
+    "id": "Em",
+    "name": "Em",
+    "label": "E 小三和弦",
+    "difficulty": "beginner",
+    "strings": [
+      -1,
+      2,
+      2,
+      0,
+      0,
+      0
+    ],
+    "fingers": [
+      0,
+      2,
+      3,
+      0,
+      0,
+      0
+    ],
+    "steps": [
+      "中指按5弦2品",
+      "无名指按4弦2品",
+      "其余4根弦空弦弹响"
+    ],
+    "mistakes": [
+      "手指趴下碰到3弦导致闷音",
+      "拇指握太紧",
+      "按弦力度不足声音沙哑"
+    ],
+    "next": "Am",
+    "nodeIds": [
+      3
+    ],
+    "barre": false
+  },
+  {
+    "id": "Am",
+    "name": "Am",
+    "label": "A 小三和弦",
+    "difficulty": "beginner",
+    "strings": [
+      -1,
+      0,
+      2,
+      2,
+      1,
+      0
+    ],
+    "fingers": [
+      0,
+      0,
+      2,
+      3,
+      1,
+      0
+    ],
+    "steps": [
+      "食指按2弦1品",
+      "中指按4弦2品",
+      "无名指按3弦2品"
+    ],
+    "mistakes": [
+      "食指太靠品丝打品",
+      "中指碰到5弦让空弦变闷",
+      "三指挤在一起"
+    ],
+    "next": "G",
+    "nodeIds": [
+      4,
+      5
+    ],
+    "barre": false
+  },
+  {
+    "id": "G",
+    "name": "G",
+    "label": "G 大三和弦",
+    "difficulty": "beginner",
+    "strings": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      3
+    ],
+    "fingers": [
+      2,
+      1,
+      0,
+      0,
+      0,
+      3
+    ],
+    "steps": [
+      "中指按6弦3品",
+      "食指按5弦2品",
+      "无名指按1弦3品"
+    ],
+    "mistakes": [
+      "无名指碰到2弦导致2弦闷音",
+      "中指没立起来压到5弦",
+      "手腕太僵硬"
+    ],
+    "next": "C",
+    "nodeIds": [
+      8,
+      9,
+      10
+    ],
+    "barre": false
+  },
+  {
+    "id": "C",
+    "name": "C",
+    "label": "C 大三和弦",
+    "difficulty": "beginner",
+    "strings": [
+      -1,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "fingers": [
+      0,
+      3,
+      2,
+      0,
+      1,
+      0
+    ],
+    "steps": [
+      "无名指按5弦3品",
+      "中指按4弦2品",
+      "食指按2弦1品"
+    ],
+    "mistakes": [
+      "食指碰到1弦使其闷音",
+      "无名指力度不够5弦沙哑",
+      "手指离品丝太远"
+    ],
+    "next": "G7",
+    "nodeIds": [
+      17,
+      18
+    ],
+    "barre": false
+  },
+  {
+    "id": "D",
+    "name": "D",
+    "label": "D 大三和弦",
+    "difficulty": "beginner",
+    "strings": [
+      -1,
+      -1,
+      0,
+      2,
+      3,
+      2
+    ],
+    "fingers": [
+      0,
+      0,
+      0,
+      2,
+      3,
+      1
+    ],
+    "steps": [
+      "中指按3弦2品",
+      "无名指按2弦3品",
+      "食指按1弦2品"
+    ],
+    "mistakes": [
+      "三指呈一条直线挡住相邻弦",
+      "只弹4/5弦",
+      "食指按在品丝上打品"
+    ],
+    "next": "A",
+    "nodeIds": [],
+    "barre": false
+  },
+  {
+    "id": "A",
+    "name": "A",
+    "label": "A 大三和弦",
+    "difficulty": "beginner",
+    "strings": [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    "fingers": [
+      0,
+      0,
+      1,
+      2,
+      3,
+      0
+    ],
+    "steps": [
+      "食指按4弦2品",
+      "中指按3弦2品",
+      "无名指按2弦2品"
+    ],
+    "mistakes": [
+      "三指没排成竖线",
+      "手指碰到5弦让空弦变闷",
+      "手腕外凸不够"
+    ],
+    "next": "E",
+    "nodeIds": [],
+    "barre": false
+  },
+  {
+    "id": "E",
+    "name": "E",
+    "label": "E 大三和弦",
+    "difficulty": "beginner",
+    "strings": [
+      0,
+      2,
+      2,
+      1,
+      0,
+      0
+    ],
+    "fingers": [
+      0,
+      2,
+      3,
+      1,
+      0,
+      0
+    ],
+    "steps": [
+      "中指按5弦2品",
+      "无名指按4弦2品",
+      "食指按3弦1品"
+    ],
+    "mistakes": [
+      "食指横得太多闷到4弦",
+      "手腕太平导致高把位难按"
+    ],
+    "next": "A",
+    "nodeIds": [],
+    "barre": false
+  },
+  {
+    "id": "Dm",
+    "name": "Dm",
+    "label": "D 小三和弦",
+    "difficulty": "beginner",
+    "strings": [
+      -1,
+      -1,
+      0,
+      2,
+      3,
+      1
+    ],
+    "fingers": [
+      0,
+      0,
+      0,
+      2,
+      3,
+      1
+    ],
+    "steps": [
+      "中指按3弦2品",
+      "无名指按2弦3品",
+      "食指按1弦1品"
+    ],
+    "mistakes": [
+      "食指力度不足",
+      "与D和弦混淆"
+    ],
+    "next": "Am",
+    "nodeIds": [],
+    "barre": false
+  },
+  {
+    "id": "G7",
+    "name": "G7",
+    "label": "G 属七和弦",
+    "difficulty": "beginner",
+    "strings": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      1
+    ],
+    "fingers": [
+      3,
+      2,
+      0,
+      0,
+      0,
+      1
+    ],
+    "steps": [
+      "无名指按6弦3品",
+      "中指按5弦2品",
+      "食指按1弦1品"
+    ],
+    "mistakes": [
+      "把1弦按成3品",
+      "6弦力度不够"
+    ],
+    "next": "C",
+    "nodeIds": [
+      18
+    ],
+    "barre": false
+  },
+  {
+    "id": "C7",
+    "name": "C7",
+    "label": "C 属七和弦",
+    "difficulty": "intermediate",
+    "strings": [
+      -1,
+      3,
+      2,
+      3,
+      1,
+      0
+    ],
+    "fingers": [
+      0,
+      3,
+      2,
+      4,
+      1,
+      0
+    ],
+    "steps": [
+      "无名指5弦3品",
+      "中指4弦2品",
+      "小指3弦3品",
+      "食指2弦1品"
+    ],
+    "mistakes": [
+      "小指够不到3弦3品",
+      "与C混淆"
+    ],
+    "next": "F",
+    "nodeIds": [],
+    "barre": false
+  },
+  {
+    "id": "A7",
+    "name": "A7",
+    "label": "A 属七和弦",
+    "difficulty": "intermediate",
+    "strings": [
+      -1,
+      0,
+      2,
+      0,
+      2,
+      0
+    ],
+    "fingers": [
+      0,
+      0,
+      2,
+      0,
+      1,
+      0
+    ],
+    "steps": [
+      "中指按4弦2品",
+      "食指按2弦2品",
+      "3弦与1弦弹空弦"
+    ],
+    "mistakes": [
+      "误按3弦",
+      "食指按到3弦"
+    ],
+    "next": "D",
+    "nodeIds": [],
+    "barre": false
+  },
+  {
+    "id": "E7",
+    "name": "E7",
+    "label": "E 属七和弦",
+    "difficulty": "intermediate",
+    "strings": [
+      0,
+      2,
+      0,
+      1,
+      0,
+      0
+    ],
+    "fingers": [
+      0,
+      2,
+      0,
+      1,
+      0,
+      0
+    ],
+    "steps": [
+      "中指按5弦2品",
+      "食指按3弦1品"
+    ],
+    "mistakes": [
+      "与E混淆",
+      "只按一根手指"
+    ],
+    "next": "A",
+    "nodeIds": [],
+    "barre": false
+  },
+  {
+    "id": "D7",
+    "name": "D7",
+    "label": "D 属七和弦",
+    "difficulty": "intermediate",
+    "strings": [
+      -1,
+      -1,
+      0,
+      2,
+      1,
+      2
+    ],
+    "fingers": [
+      0,
+      0,
+      0,
+      2,
+      1,
+      3
+    ],
+    "steps": [
+      "中指3弦2品",
+      "食指2弦1品",
+      "无名指1弦2品"
+    ],
+    "mistakes": [
+      "食指挡到3弦",
+      "与D混淆"
+    ],
+    "next": "G",
+    "nodeIds": [],
+    "barre": false
+  },
+  {
+    "id": "B7",
+    "name": "B7",
+    "label": "B 属七和弦",
+    "difficulty": "intermediate",
+    "strings": [
+      -1,
+      2,
+      1,
+      2,
+      0,
+      2
+    ],
+    "fingers": [
+      0,
+      2,
+      1,
+      3,
+      0,
+      4
+    ],
+    "steps": [
+      "中指5弦2品",
+      "食指4弦1品",
+      "无名指3弦2品",
+      "小指1弦2品"
+    ],
+    "mistakes": [
+      "小指无力",
+      "4弦按成品2"
+    ],
+    "next": "E",
+    "nodeIds": [],
+    "barre": false
+  },
+  {
+    "id": "Am7",
+    "name": "Am7",
+    "label": "A 小七和弦",
+    "difficulty": "intermediate",
+    "strings": [
+      -1,
+      0,
+      2,
+      0,
+      1,
+      0
+    ],
+    "fingers": [
+      0,
+      0,
+      2,
+      0,
+      1,
+      0
+    ],
+    "steps": [
+      "中指4弦2品",
+      "食指2弦1品",
+      "3弦与1弦空弦"
+    ],
+    "mistakes": [
+      "与Am混淆",
+      "3弦误按闷"
+    ],
+    "next": "Dm7",
+    "nodeIds": [],
+    "barre": false
+  },
+  {
+    "id": "Em7",
+    "name": "Em7",
+    "label": "E 小七和弦",
+    "difficulty": "intermediate",
+    "strings": [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "fingers": [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    "steps": [
+      "中指按5弦2品",
+      "其余全空弦"
+    ],
+    "mistakes": [
+      "觉得一根手指不像和弦——这是正常的简化"
+    ],
+    "next": "Am7",
+    "nodeIds": [],
+    "barre": false
+  },
+  {
+    "id": "Fmaj7",
+    "name": "Fmaj7",
+    "label": "F 大七和弦",
+    "difficulty": "intermediate",
+    "strings": [
+      -1,
+      3,
+      3,
+      2,
+      1,
+      0
+    ],
+    "fingers": [
+      0,
+      4,
+      3,
+      2,
+      1,
+      0
+    ],
+    "steps": [
+      "小指5弦3品",
+      "无名指4弦3品",
+      "中指3弦2品",
+      "食指2弦1品"
+    ],
+    "mistakes": [
+      "指法分配错误导致小指够不到",
+      "与F混淆"
+    ],
+    "next": "C",
+    "nodeIds": [],
+    "barre": false
+  },
+  {
+    "id": "Cmaj7",
+    "name": "Cmaj7",
+    "label": "C 大七和弦",
+    "difficulty": "intermediate",
+    "strings": [
+      -1,
+      3,
+      2,
+      0,
+      0,
+      0
+    ],
+    "fingers": [
+      0,
+      3,
+      2,
+      0,
+      0,
+      0
+    ],
+    "steps": [
+      "无名指5弦3品",
+      "中指4弦2品",
+      "其余空弦"
+    ],
+    "mistakes": [
+      "与C混淆",
+      "2弦误按"
+    ],
+    "next": "Am7",
+    "nodeIds": [],
+    "barre": false
+  },
+  {
+    "id": "F",
+    "name": "F",
+    "label": "F 大三和弦（横按）",
+    "difficulty": "advanced",
+    "strings": [
+      1,
+      3,
+      3,
+      2,
+      1,
+      1
+    ],
+    "fingers": [
+      1,
+      2,
+      3,
+      4,
+      1,
+      1
+    ],
+    "steps": [
+      "食指横按第1品全部6根弦",
+      "中指5弦3品",
+      "无名指4弦3品",
+      "小指3弦2品"
+    ],
+    "mistakes": [
+      "食指不在正中间导致部分弦闷",
+      "拇指没在琴颈后方中间施力",
+      "手腕太靠里",
+      "小指无力"
+    ],
+    "next": "Bm",
+    "nodeIds": [],
+    "barre": true
+  },
+  {
+    "id": "Bm",
+    "name": "Bm",
+    "label": "B 小三和弦（横按）",
+    "difficulty": "advanced",
+    "strings": [
+      2,
+      4,
+      4,
+      3,
+      2,
+      2
+    ],
+    "fingers": [
+      1,
+      2,
+      3,
+      4,
+      1,
+      1
+    ],
+    "steps": [
+      "食指横按第2品全部6根弦",
+      "中指5弦4品",
+      "无名指4弦4品",
+      "小指3弦3品"
+    ],
+    "mistakes": [
+      "食指压到3弦3品的小指",
+      "手腕位置不对",
+      "与B7混淆"
+    ],
+    "next": "D",
+    "nodeIds": [],
+    "barre": true
+  }
+]
