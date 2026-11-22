@@ -1,0 +1,923 @@
+{
+  "template": {
+    "id": "path_sing_zero_3h",
+    "name": "零基础弹唱之路",
+    "description": "从零开始，10 周弹唱完整一首歌",
+    "goal": "sing",
+    "level": "zero",
+    "hours": 3,
+    "totalNodes": 30,
+    "estimatedWeeks": 10,
+    "version": 1
+  },
+  "stages": [
+    {
+      "number": 1,
+      "title": "让手和琴成为朋友",
+      "weeks": "第 1–2 周",
+      "milestone": "Em / Am / G 切换 1 分钟 30 次"
+    },
+    {
+      "number": 2,
+      "title": "让节奏活起来",
+      "weeks": "第 3–4 周",
+      "milestone": "60 BPM 下连续扫 8 小节不抢拍"
+    },
+    {
+      "number": 3,
+      "title": "弹出第一首歌",
+      "weeks": "第 5–7 周",
+      "milestone": "完整录一遍主歌"
+    },
+    {
+      "number": 4,
+      "title": "从“能弹”到“能弹唱”",
+      "weeks": "第 8–10 周",
+      "milestone": "完整弹唱一首歌，存入作品档案"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "node_01",
+      "stage": 1,
+      "orderIndex": 1,
+      "title": "认识你的吉他",
+      "why": "不知道各部位叫什么，后面所有教程都听不懂。",
+      "steps": [
+        "对照图指认琴头/琴颈/品格/音孔/琴桥",
+        "学会正确抱琴（琴箱凹处贴身体）",
+        "右手自然搭在音孔上方"
+      ],
+      "criteria": "能说出 5 个部位名称，拍一张持琴照。",
+      "minutes": 10,
+      "tools": [],
+      "theoryCardIds": [],
+      "resourceTags": [
+        "吉他入门",
+        "认识吉他",
+        "新手",
+        "5分钟"
+      ],
+      "unlockCondition": "self_pass",
+      "isCheckpoint": false,
+      "remedialNodeId": null
+    },
+    {
+      "id": "node_02",
+      "stage": 1,
+      "orderIndex": 2,
+      "title": "调准 6 根弦",
+      "why": "琴不准，练什么都是错的，这是第一优先级。",
+      "steps": [
+        "打开调音器",
+        "从最粗的 6 弦开始，逐根拨响看指针",
+        "拧弦钮到指针居中变绿"
+      ],
+      "criteria": "6 根弦全部显示绿色对勾。",
+      "minutes": 8,
+      "tools": [
+        {
+          "type": "tuner",
+          "trigger": "auto"
+        }
+      ],
+      "theoryCardIds": [
+        "card_05",
+        "card_09"
+      ],
+      "resourceTags": [
+        "吉他调音",
+        "调音器教程",
+        "零基础",
+        "新手必看"
+      ],
+      "unlockCondition": "self_pass",
+      "isCheckpoint": false,
+      "remedialNodeId": null
+    },
+    {
+      "id": "node_03",
+      "stage": 1,
+      "orderIndex": 3,
+      "title": "按出第一个和弦 Em",
+      "why": "Em 是两根手指就能按响的和弦，最适合建立“我能弹”的信心。",
+      "steps": [
+        "中指按 5 弦 2 品、无名指按 4 弦 2 品",
+        "拇指放琴颈后方中间",
+        "逐根拨弦检查是否闷音"
+      ],
+      "criteria": "6 根弦都能清晰发声，保持 30 秒。",
+      "minutes": 10,
+      "tools": [
+        {
+          "type": "chord",
+          "target": "Em",
+          "trigger": "auto"
+        }
+      ],
+      "theoryCardIds": [],
+      "resourceTags": [
+        "Em和弦",
+        "新手和弦",
+        "按弦姿势",
+        "零基础"
+      ],
+      "unlockCondition": "self_pass",
+      "isCheckpoint": false,
+      "remedialNodeId": null
+    },
+    {
+      "id": "node_04",
+      "stage": 1,
+      "orderIndex": 4,
+      "title": "按出 Am，理解“和弦=几个音一起响”",
+      "why": "第二个和弦，开始有“和弦”概念。",
+      "steps": [
+        "食指 2 弦 1 品、中指 4 弦 2 品、无名指 3 弦 2 品",
+        "对照指板图检查",
+        "逐根拨弦"
+      ],
+      "criteria": "6 根弦全响，保持 30 秒。",
+      "minutes": 10,
+      "tools": [
+        {
+          "type": "chord",
+          "target": "Am",
+          "trigger": "auto"
+        }
+      ],
+      "theoryCardIds": [
+        "card_10"
+      ],
+      "resourceTags": [
+        "Am和弦",
+        "新手和弦",
+        "和弦按法"
+      ],
+      "unlockCondition": "self_pass",
+      "isCheckpoint": false,
+      "remedialNodeId": null
+    },
+    {
+      "id": "node_05",
+      "stage": 1,
+      "orderIndex": 5,
+      "title": "和弦转换：Em ↔ Am",
+      "why": "会按不等于会换，转换才是弹歌的关键。",
+      "steps": [
+        "记住两和弦的共同手指",
+        "先看目标手型再动手",
+        "慢速来回切换"
+      ],
+      "criteria": "1 分钟完成 ≥30 次转换，2 秒内按准。",
+      "minutes": 15,
+      "tools": [
+        {
+          "type": "metronome",
+          "bpm": 60,
+          "trigger": "auto"
+        }
+      ],
+      "theoryCardIds": [],
+      "resourceTags": [
+        "和弦转换",
+        "技巧",
+        "Em",
+        "Am",
+        "转换练习"
+      ],
+      "unlockCondition": "self_pass",
+      "isCheckpoint": false,
+      "remedialNodeId": null
+    },
+    {
+      "id": "node_06",
+      "stage": 1,
+      "orderIndex": 6,
+      "title": "右手第一次下扫",
+      "why": "开始有“伴奏”的感觉。",
+      "steps": [
+        "手腕像甩水一样摆动（不是胳膊）",
+        "从 6 弦扫到 1 弦",
+        "保持均匀"
+      ],
+      "criteria": "按住 Em 连续下扫 4 拍 × 8 小节，声音均匀不卡弦。",
+      "minutes": 12,
+      "tools": [
+        {
+          "type": "metronome",
+          "bpm": 60,
+          "trigger": "auto"
+        }
+      ],
+      "theoryCardIds": [
+        "card_03",
+        "card_17"
+      ],
+      "resourceTags": [
+        "吉他扫弦",
+        "右手姿势",
+        "新手扫弦",
+        "手腕"
+      ],
+      "unlockCondition": "self_pass",
+      "isCheckpoint": false,
+      "remedialNodeId": null
+    },
+    {
+      "id": "node_07",
+      "stage": 1,
+      "orderIndex": 7,
+      "title": "阶段小测：和弦 + 扫弦",
+      "why": "检验阶段一是否过关，不过关则自动插入补充任务。",
+      "steps": [
+        "Em/Am 各按 3 次",
+        "切换 1 分钟",
+        "下扫 8 小节"
+      ],
+      "criteria": "全部达标解锁阶段二；未达标系统推荐“补练任务”。",
+      "minutes": 10,
+      "tools": [],
+      "theoryCardIds": [],
+      "resourceTags": [],
+      "unlockCondition": "self_pass",
+      "isCheckpoint": true,
+      "remedialNodeId": null
+    },
+    {
+      "id": "node_08",
+      "stage": 2,
+      "orderIndex": 8,
+      "title": "加入 G 和弦",
+      "why": "G 是流行歌出现频率最高的和弦之一。",
+      "steps": [
+        "中指 6 弦 3 品、食指 5 弦 2 品、无名指 1 弦 3 品",
+        "注意指尖别碰相邻弦",
+        "逐根拨弦检查"
+      ],
+      "criteria": "6 根弦全响（尤其 1 弦和 6 弦）。",
+      "minutes": 12,
+      "tools": [
+        {
+          "type": "chord",
+          "target": "G",
+          "trigger": "auto"
+        }
+      ],
+      "theoryCardIds": [],
+      "resourceTags": [
+        "G和弦",
+        "按不响",
+        "闷音",
+        "解决",
+        "新手"
+      ],
+      "unlockCondition": "self_pass",
+      "isCheckpoint": false,
+      "remedialNodeId": null
+    },
+    {
+      "id": "node_09",
+      "stage": 2,
+      "orderIndex": 9,
+      "title": "G 和弦常见错误纠正",
+      "why": "G 是新手第一个大坎，专门设一个排错节点。",
+      "steps": [
+        "对照“3 种闷音原因”图自查",
+        "调整手腕角度让指尖立起",
+        "重按"
+      ],
+      "criteria": "连续 10 次按 G 都全响。",
+      "minutes": 10,
+      "tools": [
+        {
+          "type": "chord",
+          "target": "G",
+          "trigger": "auto"
+        }
+      ],
+      "theoryCardIds": [],
+      "resourceTags": [
+        "G和弦",
+        "闷音",
+        "指尖",
+        "手腕",
+        "纠正"
+      ],
+      "unlockCondition": "self_pass",
+      "isCheckpoint": false,
+      "remedialNodeId": null
+    },
+    {
+      "id": "node_10",
+      "stage": 2,
+      "orderIndex": 10,
+      "title": "和弦转换：Em–Am–G 循环",
+      "why": "三个和弦串起来就是一个完整伴奏的基础。",
+      "steps": [
+        "慢速按 Em-Am-G 顺序按",
+        "每和弦停 4 拍",
+        "循环"
+      ],
+      "criteria": "连续 4 轮不中断、无明显停顿。",
+      "minutes": 15,
+      "tools": [
+        {
+          "type": "metronome",
+          "bpm": 60,
+          "trigger": "auto"
+        }
+      ],
+      "theoryCardIds": [],
+      "resourceTags": [
+        "和弦转换练习",
+        "三和弦",
+        "循环",
+        "新手"
+      ],
+      "unlockCondition": "self_pass",
+      "isCheckpoint": false,
+      "remedialNodeId": null
+    },
+    {
+      "id": "node_11",
+      "stage": 2,
+      "orderIndex": 11,
+      "title": "看懂六线谱",
+      "why": "从此能自己读谱，不再全靠视频模仿。",
+      "steps": [
+        "6 根横线=6 根弦（最上面是 1 弦最细）",
+        "数字=按第几品，×=扫弦",
+        "从左往右读=时间顺序"
+      ],
+      "criteria": "读一段 4 小节简单谱并说出弹哪根弦。",
+      "minutes": 10,
+      "tools": [
+        {
+          "type": "theory",
+          "target": "card_01",
+          "trigger": "auto"
+        }
+      ],
+      "theoryCardIds": [
+        "card_01",
+        "card_03"
+      ],
+      "resourceTags": [
+        "六线谱",
+        "入门",
+        "怎么看吉他谱",
+        "新手"
+      ],
+      "unlockCondition": "self_pass",
+      "isCheckpoint": false,
+      "remedialNodeId": null
+    },
+    {
+      "id": "node_12",
+      "stage": 2,
+      "orderIndex": 12,
+      "title": "节奏型：下 + 下上扫",
+      "why": "民谣 80% 的歌用这个节奏型。",
+      "steps": [
+        "口念“下 下上 空上下上”",
+        "慢速跟节拍器",
+        "先不加和弦转换"
+      ],
+      "criteria": "60 BPM 下 Em+Am 各 8 小节不抢拍。",
+      "minutes": 15,
+      "tools": [
+        {
+          "type": "metronome",
+          "bpm": 60,
+          "trigger": "auto"
+        }
+      ],
+      "theoryCardIds": [
+        "card_19"
+      ],
+      "resourceTags": [
+        "扫弦节奏型",
+        "民谣",
+        "下上扫",
+        "节拍器练习"
+      ],
+      "unlockCondition": "self_pass",
+      "isCheckpoint": false,
+      "remedialNodeId": null
+    },
+    {
+      "id": "node_13",
+      "stage": 2,
+      "orderIndex": 13,
+      "title": "跟节拍器稳定节奏",
+      "why": "节奏感是“听着像不像”的关键。",
+      "steps": [
+        "开节拍器 60 BPM",
+        "每拍一下扫弦",
+        "逐渐加速到 80 BPM"
+      ],
+      "criteria": "80 BPM 下连续 16 小节不错拍。",
+      "minutes": 12,
+      "tools": [
+        {
+          "type": "metronome",
+          "bpm": 60,
+          "progressive": true,
+          "trigger": "auto"
+        }
+      ],
+      "theoryCardIds": [
+        "card_16",
+        "card_20"
+      ],
+      "resourceTags": [
+        "节拍器练习",
+        "节奏感",
+        "跟拍",
+        "吉他"
+      ],
+      "unlockCondition": "self_pass",
+      "isCheckpoint": false,
+      "remedialNodeId": null
+    },
+    {
+      "id": "node_14",
+      "stage": 2,
+      "orderIndex": 14,
+      "title": "阶段小测：节奏稳定性",
+      "why": "节奏不过关，弹歌会“散”。",
+      "steps": [
+        "录制自己 1 分钟扫弦，回放对比节拍器"
+      ],
+      "criteria": "系统记录自评“稳/抢/拖”，决定阶段三速度。",
+      "minutes": 10,
+      "tools": [],
+      "theoryCardIds": [],
+      "resourceTags": [],
+      "unlockCondition": "self_pass",
+      "isCheckpoint": true,
+      "remedialNodeId": null
+    },
+    {
+      "id": "node_15",
+      "stage": 3,
+      "orderIndex": 15,
+      "title": "单音旋律：《小星星》",
+      "why": "从伴奏切换到旋律，建立“我在演奏”的感觉。",
+      "steps": [
+        "用 1、2 弦按几个音",
+        "食指中指交替拨",
+        "60 BPM 慢速"
+      ],
+      "criteria": "无错音连续弹完一遍。",
+      "minutes": 12,
+      "tools": [
+        {
+          "type": "metronome",
+          "bpm": 60,
+          "trigger": "auto"
+        }
+      ],
+      "theoryCardIds": [
+        "card_05",
+        "card_02"
+      ],
+      "resourceTags": [
+        "吉他单音练习",
+        "小星星",
+        "新手曲目"
+      ],
+      "unlockCondition": "self_pass",
+      "isCheckpoint": false,
+      "remedialNodeId": null
+    },
+    {
+      "id": "node_16",
+      "stage": 3,
+      "orderIndex": 16,
+      "title": "分解和弦（琶音）入门",
+      "why": "比扫弦更温柔的伴奏型，适合很多抒情歌。",
+      "steps": [
+        "手指依次拨 5-3-2-1 弦",
+        "节奏型 53231323",
+        "在 Em 上练"
+      ],
+      "criteria": "稳定弹出分解型，每根弦音量一致。",
+      "minutes": 15,
+      "tools": [
+        {
+          "type": "metronome",
+          "bpm": 60,
+          "trigger": "auto"
+        }
+      ],
+      "theoryCardIds": [
+        "card_19"
+      ],
+      "resourceTags": [
+        "分解和弦",
+        "琶音",
+        "53231323",
+        "新手"
+      ],
+      "unlockCondition": "self_pass",
+      "isCheckpoint": false,
+      "remedialNodeId": null
+    },
+    {
+      "id": "node_17",
+      "stage": 3,
+      "orderIndex": 17,
+      "title": "加入 C 和弦",
+      "why": "C 是又一个高频和弦，扩展歌曲范围。",
+      "steps": [
+        "食指 2 弦 1 品、中指 4 弦 2 品、无名指 5 弦 3 品",
+        "检查 1 弦别闷",
+        "逐根拨"
+      ],
+      "criteria": "6 根弦全响。",
+      "minutes": 10,
+      "tools": [
+        {
+          "type": "chord",
+          "target": "C",
+          "trigger": "auto"
+        }
+      ],
+      "theoryCardIds": [
+        "card_11"
+      ],
+      "resourceTags": [
+        "C和弦",
+        "按法",
+        "新手",
+        "不闷音"
+      ],
+      "unlockCondition": "self_pass",
+      "isCheckpoint": false,
+      "remedialNodeId": null
+    },
+    {
+      "id": "node_18",
+      "stage": 3,
+      "orderIndex": 18,
+      "title": "C–G–Am–Em 经典和弦进行",
+      "why": "这就是俗称“万能和弦进行”，无数流行歌在用。",
+      "steps": [
+        "慢速按顺序按",
+        "每和弦 4 拍",
+        "循环 4 遍"
+      ],
+      "criteria": "连续 4 遍不中断。",
+      "minutes": 15,
+      "tools": [
+        {
+          "type": "metronome",
+          "bpm": 60,
+          "trigger": "auto"
+        },
+        {
+          "type": "chord",
+          "target": "C",
+          "trigger": "auto"
+        }
+      ],
+      "theoryCardIds": [
+        "card_12"
+      ],
+      "resourceTags": [
+        "万能和弦进行",
+        "C",
+        "G",
+        "Am",
+        "Em",
+        "练习"
+      ],
+      "unlockCondition": "self_pass",
+      "isCheckpoint": false,
+      "remedialNodeId": null
+    },
+    {
+      "id": "node_19",
+      "stage": 3,
+      "orderIndex": 19,
+      "title": "选歌：确定你的第一首歌",
+      "why": "目标具体化，学习动机最强。",
+      "steps": [
+        "从 3 首简化版候选中选一首",
+        "听原曲 3 遍",
+        "看谱确认和弦都在已学范围内"
+      ],
+      "criteria": "选定歌曲并加入“作品档案”目标。",
+      "minutes": 10,
+      "tools": [],
+      "theoryCardIds": [],
+      "resourceTags": [
+        "吉他弹唱",
+        "简单歌曲",
+        "新手",
+        "流行歌"
+      ],
+      "unlockCondition": "self_pass",
+      "isCheckpoint": false,
+      "remedialNodeId": null
+    },
+    {
+      "id": "node_20",
+      "stage": 3,
+      "orderIndex": 20,
+      "title": "分解练习：主歌和弦",
+      "why": "先只解决“手”的问题。",
+      "steps": [
+        "只按主歌和弦不唱",
+        "慢速走一遍",
+        "标出卡壳处"
+      ],
+      "criteria": "主歌和弦能连续走完 2 遍。",
+      "minutes": 15,
+      "tools": [
+        {
+          "type": "metronome",
+          "bpm": 60,
+          "trigger": "auto"
+        }
+      ],
+      "theoryCardIds": [],
+      "resourceTags": [
+        "歌曲和弦",
+        "弹唱教学",
+        "主歌",
+        "慢速"
+      ],
+      "unlockCondition": "self_pass",
+      "isCheckpoint": false,
+      "remedialNodeId": null
+    },
+    {
+      "id": "node_21",
+      "stage": 3,
+      "orderIndex": 21,
+      "title": "练熟副歌",
+      "why": "副歌是歌曲高潮，也是用户最想弹的部分。",
+      "steps": [
+        "单独练副歌和弦",
+        "重点攻克转换卡点",
+        "提速到原速"
+      ],
+      "criteria": "副歌连续弹 3 遍不中断。",
+      "minutes": 15,
+      "tools": [
+        {
+          "type": "metronome",
+          "bpm": 60,
+          "trigger": "auto"
+        }
+      ],
+      "theoryCardIds": [],
+      "resourceTags": [
+        "副歌",
+        "和弦转换",
+        "弹唱",
+        "教学"
+      ],
+      "unlockCondition": "self_pass",
+      "isCheckpoint": false,
+      "remedialNodeId": null
+    },
+    {
+      "id": "node_22",
+      "stage": 3,
+      "orderIndex": 22,
+      "title": "不加唱，完整弹一遍",
+      "why": "先把“弹”这条线跑通。",
+      "steps": [
+        "从头到尾只弹不唱",
+        "允许看谱",
+        "录音"
+      ],
+      "criteria": "完整弹完不中断（允许偶尔卡 1 秒）。",
+      "minutes": 15,
+      "tools": [
+        {
+          "type": "metronome",
+          "bpm": 60,
+          "trigger": "auto"
+        }
+      ],
+      "theoryCardIds": [],
+      "resourceTags": [
+        "整曲练习",
+        "弹唱",
+        "完整版"
+      ],
+      "unlockCondition": "self_pass",
+      "isCheckpoint": false,
+      "remedialNodeId": null
+    },
+    {
+      "id": "node_23",
+      "stage": 3,
+      "orderIndex": 23,
+      "title": "阶段小测：主歌+副歌弹唱录音",
+      "why": "第一个可交付成果。",
+      "steps": [
+        "录制一段完整弹唱，存入作品档案"
+      ],
+      "criteria": "生成第一份“作品”，解锁阶段四。",
+      "minutes": 10,
+      "tools": [],
+      "theoryCardIds": [],
+      "resourceTags": [],
+      "unlockCondition": "self_pass",
+      "isCheckpoint": true,
+      "remedialNodeId": null
+    },
+    {
+      "id": "node_24",
+      "stage": 4,
+      "orderIndex": 24,
+      "title": "唱与弹的分工",
+      "why": "新手最容易“一唱就乱”。",
+      "steps": [
+        "先只唱不弹熟悉歌词",
+        "再只弹不唱",
+        "最后合起来"
+      ],
+      "criteria": "能边扫弦边唱完主歌 4 句。",
+      "minutes": 15,
+      "tools": [
+        {
+          "type": "metronome",
+          "bpm": 60,
+          "trigger": "auto"
+        }
+      ],
+      "theoryCardIds": [],
+      "resourceTags": [
+        "弹唱技巧",
+        "唱弹配合",
+        "新手",
+        "分步骤"
+      ],
+      "unlockCondition": "self_pass",
+      "isCheckpoint": false,
+      "remedialNodeId": null
+    },
+    {
+      "id": "node_25",
+      "stage": 4,
+      "orderIndex": 25,
+      "title": "变调夹的使用",
+      "why": "唱不上去是新手放弃弹唱的第一原因。",
+      "steps": [
+        "了解变调夹=整体升半音",
+        "试着夹 2 品",
+        "找到舒服的音区"
+      ],
+      "criteria": "找到适合自己的品位并弹唱一遍。",
+      "minutes": 10,
+      "tools": [
+        {
+          "type": "chord",
+          "target": "Fmaj7",
+          "trigger": "auto"
+        }
+      ],
+      "theoryCardIds": [
+        "card_08"
+      ],
+      "resourceTags": [
+        "变调夹",
+        "使用教程",
+        "弹唱",
+        "音域"
+      ],
+      "unlockCondition": "self_pass",
+      "isCheckpoint": false,
+      "remedialNodeId": null
+    },
+    {
+      "id": "node_26",
+      "stage": 4,
+      "orderIndex": 26,
+      "title": "扫弦力度与情绪",
+      "why": "从“弹对”到“弹得好听”。",
+      "steps": [
+        "主歌轻扫、副歌重扫",
+        "注意重音在第一拍",
+        "录音回放对比"
+      ],
+      "criteria": "录音能听出强弱变化。",
+      "minutes": 12,
+      "tools": [
+        {
+          "type": "metronome",
+          "bpm": 60,
+          "trigger": "auto"
+        }
+      ],
+      "theoryCardIds": [],
+      "resourceTags": [
+        "扫弦",
+        "力度",
+        "强弱",
+        "表现力",
+        "弹唱"
+      ],
+      "unlockCondition": "self_pass",
+      "isCheckpoint": false,
+      "remedialNodeId": null
+    },
+    {
+      "id": "node_27",
+      "stage": 4,
+      "orderIndex": 27,
+      "title": "完整弹唱一首歌",
+      "why": "达成最初目标。",
+      "steps": [
+        "从头到尾弹唱",
+        "出错不停继续",
+        "录一遍"
+      ],
+      "criteria": "完整弹唱 1 首，存入作品档案。",
+      "minutes": 15,
+      "tools": [],
+      "theoryCardIds": [],
+      "resourceTags": [
+        "弹唱完整版",
+        "新手成果",
+        "一首歌"
+      ],
+      "unlockCondition": "self_pass",
+      "isCheckpoint": false,
+      "remedialNodeId": null
+    },
+    {
+      "id": "node_28",
+      "stage": 4,
+      "orderIndex": 28,
+      "title": "录音回放与自我诊断",
+      "why": "建立“听自己弹”的习惯，这是进步最快的方法。",
+      "steps": [
+        "听一遍自己的录音",
+        "记下 3 个最不满意处",
+        "针对性补练"
+      ],
+      "criteria": "写出 3 条改进点。",
+      "minutes": 10,
+      "tools": [],
+      "theoryCardIds": [],
+      "resourceTags": [
+        "吉他",
+        "自我练习",
+        "录音",
+        "复盘",
+        "方法"
+      ],
+      "unlockCondition": "self_pass",
+      "isCheckpoint": false,
+      "remedialNodeId": null
+    },
+    {
+      "id": "node_29",
+      "stage": 4,
+      "orderIndex": 29,
+      "title": "发布与分享（可选）",
+      "why": "外部反馈带来成就感。",
+      "steps": [
+        "从 App 导出录音/视频",
+        "分享给朋友或平台",
+        "记录别人反馈"
+      ],
+      "criteria": "完成一次分享（App 内不托管内容，仅导出）。",
+      "minutes": 5,
+      "tools": [],
+      "theoryCardIds": [],
+      "resourceTags": [],
+      "unlockCondition": "self_pass",
+      "isCheckpoint": false,
+      "remedialNodeId": null
+    },
+    {
+      "id": "node_30",
+      "stage": 4,
+      "orderIndex": 30,
+      "title": "结业测评与下一路径推荐",
+      "why": "完成闭环，给出下一步。",
+      "steps": [
+        "弹唱一首歌",
+        "节奏稳定性测试",
+        "六维雷达图总览"
+      ],
+      "criteria": "生成“结业报告”，推荐 3 条新路径（指弹 / 进阶和弦 / 乐理系统）。",
+      "minutes": 15,
+      "tools": [],
+      "theoryCardIds": [],
+      "resourceTags": [],
+      "unlockCondition": "self_pass",
+      "isCheckpoint": true,
+      "remedialNodeId": null
+    }
+  ]
+}
