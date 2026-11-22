@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">吉他提升之路</string>
+
+    <!-- 底部 5 个 Tab -->
+    <string name="tab_home">首页</string>
+    <string name="tab_path">路径</string>
+    <string name="tab_practice">练习</string>
+    <string name="tab_tools">工具</string>
+    <string name="tab_profile">我的</string>
+
+    <!-- 启动加载 -->
+    <string name="loading">正在准备你的吉他之路…</string>
+
+    <!-- 权限说明（契约第十一节原文，一字不差） -->
+    <string name="mic_permission_rationale">调音需要访问麦克风。音频仅在本机实时处理，不会上传、不会存储、不会录音。</string>
+    <string name="mic_permission_denied">调音需要麦克风权限，请在设置中开启</string>
+    <string name="go_to_settings">去设置</string>
+
+    <!-- 空状态文案（UI 规范第八节原文） -->
+    <string name="empty_no_practice">还没有练习记录，从今天的第一课开始吧</string>
+    <string name="empty_no_work">录下你的第一段弹唱，3 个月后回听会惊讶</string>
+    <string name="empty_broken_link">这个链接失效了，换个讲法试试</string>
+    <string name="empty_no_network">离线也能练，联网后会同步</string>
+</resources>
