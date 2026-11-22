@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 自适应图标前景：吉他拨片造型矢量（米白拨片 + 木色圆孔），背景为木色 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FAF7F2"
+        android:pathData="M54,12 C64,26 92,42 92,64 C92,84 74,96 54,96 C34,96 16,84 16,64 C16,42 44,26 54,12 Z" />
+    <path
+        android:fillColor="#8B6F47"
+        android:pathData="M54,51m-7,0a7,7 0,1 1,14 0a7,7 0,1 1,-14 0" />
+</vector>
