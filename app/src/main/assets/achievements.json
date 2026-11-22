@@ -1,0 +1,11 @@
+[
+  {
+    "id": "streak_7",
+    "name": "坚持一周",
+    "condition": {
+      "type": "streak",
+      "days": 7
+    },
+    "icon": "flame"
+  }
+]
