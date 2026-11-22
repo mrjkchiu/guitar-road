@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 旧版圆形启动器图标占位（矢量）：木色圆底 + 米白拨片 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#8B6F47"
+        android:pathData="M54,54m-54,0a54,54 0,1 1,108 0a54,54 0,1 1,-108 0" />
+    <path
+        android:fillColor="#FAF7F2"
+        android:pathData="M54,12 C64,26 92,42 92,64 C92,84 74,96 54,96 C34,96 16,84 16,64 C16,42 44,26 54,12 Z" />
+    <path
+        android:fillColor="#8B6F47"
+        android:pathData="M54,51m-7,0a7,7 0,1 1,14 0a7,7 0,1 1,-14 0" />
+</vector>
